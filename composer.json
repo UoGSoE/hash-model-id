@@ -1,0 +1,20 @@
+{
+    "name": "uogsoe/hash-model-id",
+    "description": "Very basic trait to add a HashID ->id_hash attribute to models",
+    "type": "library",
+    "require": {
+        "hashids/hashids": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "billy",
+            "email": "william.allan@glasgow.ac.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "UoGSoE\\ModelHashIds\\": "src/"
+        }
+    }
+}
